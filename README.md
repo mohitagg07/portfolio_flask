@@ -37,14 +37,23 @@ This website showcases my skills, projects, and experience in **AI, Machine Lear
 
 ## 📂 Project Structure
 portfolio_flask/
+
 │
+
 ├── app.py # Flask application entry point
+
 ├── templates/
+
 │ └── index.html # Main portfolio HTML template
+
 └── static/
+
 ├── style.css # Stylesheet
+
 ├── profile.jpg # Your profile image
+
 ├── MOHIT_RESUME.pdf # Resume download file
+
 └── preview.png # Screenshot preview (optional)
 
 

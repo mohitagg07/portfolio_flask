@@ -3,7 +3,7 @@
 A **modern, responsive, and creative portfolio website** built using **Python Flask, HTML, CSS, and Jinja2 Templates**.  
 This website showcases my skills, projects, and experience in **AI, Machine Learning, and Web Development**.
 
-![Portfolio Preview](static/preview.png) 
+![Portfolio Preview]([static/preview.png](https://github.com/mohitagg07/portfolio_flask/blob/main/static/Screenshot%202025-08-13%20230430.png)) 
 
 ---
 

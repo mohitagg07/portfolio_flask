@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mohit Aggarwal - Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Mohit Aggarwal</h1>
+        <p>B.Tech CSE AI & ML | AI, ML & Web Development Enthusiast</p>
+        <nav>
+            <a href="/">Home</a>
+            
+            <a href="https://linkedin.com/in/mohit-aggarwal-8041b9242" target="_blank">LinkedIn</a>
+        </nav>
+    </header>
+
+    <!-- About Me -->
+    <section class="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    Hi! I'm <strong>Mohit Aggarwal</strong>, a passionate <span class="highlight">AI & ML Developer</span> 
+                    dedicated to creating innovative and impactful web solutions.  
+                    I bring expertise in <span class="tag">Python</span>, <span class="tag">Flask</span>, 
+                    <span class="tag">React.js</span>, <span class="tag">TensorFlow.js</span>, and 
+                    <span class="tag">Full-Stack Development</span>.
+                </p>
+                <p>
+                    I have experience working as a <strong>Software Development Intern</strong> at Berger Paints, 
+                    where I developed AI-driven solutions, optimized workflows, and improved business decision-making through data-driven approaches.
+                </p>
+                <p>
+                    My mission is to bridge the gap between AI research and real-world applications, building tools that make life easier, smarter, and more connected.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="{{ url_for('static', filename='Mohit.jpg') }}" alt="Mohit Aggarwal">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>SmartCafe 360</h3>
+                <p>AI-powered cafe management system with Angular, Spring Boot, and MySQL. 
+                Integrated ML for sales prediction & sentiment analysis.</p>
+            </div>
+            <div class="project-card">
+                <h3>Gesture-Based CAPTCHA</h3>
+                <p>Real-time hand gesture recognition system using TensorFlow.js & React.js, replacing traditional CAPTCHA.</p>
+            </div>
+            <div class="project-card">
+                <h3>AI Mental Health Chatbot</h3>
+                <p>Chatbot using LLaMA 3 via Groq API with emotion recognition and mental health questionnaire.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>📧 <a href="mailto:mohitaggarwal2003@gmail.com">mohitaggarwal2003@gmail.com</a></p>
+        <p>🔗 <a href="https://linkedin.com/in/mohit-aggarwal-8041b9242" target="_blank">LinkedIn</a></p>
+        <a class="resume-btn" href="{{ url_for('static', filename='MOHIT_RESUME.pdf') }}" download>📄 Download Resume</a>
+        <p class="copy">© 2025 Mohit Aggarwal </p>
+    </footer>
+</body>
+</html>
